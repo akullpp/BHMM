@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>hd.nlp.bayes.BHMM</OriginalElement>
+  <nodes>
+    <node x="648.0" y="940.0">hd.nlp.bayes.Main</node>
+    <node x="383.5" y="260.0">hd.nlp.bayes.BHMM</node>
+    <node x="0.0" y="61.0">hd.nlp.bayes.HMM</node>
+    <node x="879.0" y="19.5">hd.nlp.bayes.ID</node>
+    <node x="581.0" y="0.0">hd.nlp.bayes.IO</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="hd.nlp.bayes.BHMM" target="hd.nlp.bayes.IO">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="hd.nlp.bayes.BHMM" target="hd.nlp.bayes.ID">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="hd.nlp.bayes.BHMM" target="hd.nlp.bayes.HMM">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="hd.nlp.bayes.Main" target="hd.nlp.bayes.BHMM">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6726190476190477" x="598.0" y="493.99999999999994" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
