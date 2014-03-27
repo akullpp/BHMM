@@ -1,5 +1,6 @@
 Tested on: Windows 7 (x64) with JDK 1.7.0_15 (x64)
 Custom style: line length 121
+License: MIT
 
 Usage: java -jar BHMM.jar [LOG LEVEL] or set up the *.java files accordingly
 
