@@ -1,9 +1,0 @@
-23/04/2013 10:30:24.405 - hd.nlp.bayes.BHMM.<init> - [INFO] Initializing Parameters
-23/04/2013 10:30:24.420 - hd.nlp.bayes.BHMM.run - [INFO] Initializing structures
-23/04/2013 10:30:24.422 - hd.nlp.bayes.BHMM.run - [INFO] Reading lexicon from lexicon.txt
-23/04/2013 10:30:24.441 - hd.nlp.bayes.BHMM.run - [INFO] Reading lexicon from lexicon.txt
-23/04/2013 10:30:24.449 - hd.nlp.bayes.BHMM.run - [INFO] Reading gold standard from gold.txt
-23/04/2013 10:30:24.453 - hd.nlp.bayes.BHMM.run - [INFO] Initializing tag sequence
-23/04/2013 10:30:24.453 - hd.nlp.bayes.BHMM.run - [INFO] Initializing transition matrix
-23/04/2013 10:30:24.454 - hd.nlp.bayes.BHMM.run - [INFO] Initializing emission matrix
-23/04/2013 10:30:24.454 - hd.nlp.bayes.BHMM.run - [INFO] Starting Gibbs sampling with annealing

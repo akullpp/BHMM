@@ -1,4 +1,4 @@
-package hd.nlp.bayes;
+package de.akull.bhmm;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -82,17 +82,17 @@ public class Main {
         Properties p;
 
         try {
-            l = Logger.getLogger(Main.class.getName());
-            fh = new FileHandler("./log.txt");
-            f = new Format();
             p = new Properties();
-            Level lvl = (args.length == 1) ? Level.parse(args[0]) : Level.FINE;
+            p.load(new FileInputStream("config.properties"));
 
-            fh.setFormatter(f);
+            Level lvl = (args.length == 1) ? Level.parse(args[0]) : Level.FINE;
+            fh = new FileHandler(p.getProperty("log"));
+            fh.setFormatter(new Format());
+
+            l = Logger.getLogger(Main.class.getName());
             l.setUseParentHandlers(false);
             l.setLevel(lvl);
             l.addHandler(fh);
-            p.load(new FileInputStream("config.properties"));
 
             BHMM bhmm = new BHMM(l, p);
             bhmm.run();

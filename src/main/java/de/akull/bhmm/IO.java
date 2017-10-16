@@ -1,4 +1,4 @@
-package hd.nlp.bayes;
+package de.akull.bhmm;
 
 import java.io.*;
 import java.util.ArrayList;
